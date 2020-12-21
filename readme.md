@@ -3,7 +3,7 @@
 This project was created to fulfil an element of the Responsive Web Design course on freeCodeCamp.  
 The main aim of the project is to create a simple survey form in order to learn how to use various form elements, such as dropdown menus, checkboxes, textboxes etc.
 
-## Project Criteria
+# Project Criteria
 
 The required user stories are:  
 1. I can see a title with id="title" in H1 sized text.
@@ -26,7 +26,7 @@ The required user stories are:
 The project is submitted via Codepen, using a CDN link to run tests to verify completion of the user stories:  
 https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js  
 
-## Design
+# Design
 
 I decided to create this with a basic comic-book style, in contrast to other, more formal, projects.  
 I chose bold, primary colours and a stylistically appropriate set of fonts.  
@@ -38,6 +38,6 @@ Other than the required elements, I chose to experiment with the following addit
 5. A responsive resizing of the page, sizing all elements in relation to the width of the user's viewport
 6. Media query to adapt screen layout and font-sizes for smaller displays (and portrait orientation)
 
-## Conclusion
+# Conclusion
 
 This is by far the simplest of the five projects submitted in fulfilment of the Responsive Web Design Course
