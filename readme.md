@@ -36,6 +36,7 @@ Other than the required elements, I chose to experiment with the following addit
 3. A fixed background image, over which the content of the page will scroll
 4. Basic use of hover on the submit button
 5. A responsive resizing of the page, sizing all elements in relation to the width of the user's viewport
+6. Media query to adapt screen layout and font-sizes for smaller displays (and portrait orientation)
 
 ## Conclusion
 
