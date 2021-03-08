@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Londrina+Solid:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat:ital,wght@1,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="survey.css">
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 <title>Your Perfect Mountaintop Supervillain Lair</title>
 </head>
 
@@ -16,23 +16,28 @@
 
 <p id="description" class="orange-border whiteblue-box">
 <strong>Calling all misfits and weirdos!</strong><br>
-This survey is designed to ascertain your requirements for your Perfect Mountaintop Supervillain Lair.<br>
-Please do not fill in this form unless you are a bona fide supervillain.<br>
-Imposters will be disposed of in an unnecessarily over-engineered but nevertheless entertaining fashion.<br>
-Completed entries will be drawn from Dom's beanie upon his return from Barnard Castle.<br>
-Winner will receive one PMSL. Value: £2bn. Location: Classified. T&amp;Cs apply. Entrants must be 18 or over. No cash alternative.
+This survey is designed to ascertain your requirements for your Perfect Mountaintop Supervillain Lair.
+Please do not fill in this form unless you are a bona fide supervillain.
+Imposters will be disposed of in an unnecessarily over-engineered but nevertheless entertaining fashion.
+Completed entries will be drawn from Dom's beanie upon his return from Barnard Castle.
+Winner will receive one PMSL.
+Value: £2bn. Location: Classified. T&amp;Cs apply. Entrants must be 18 or over. No cash alternative.
 </p>
 
-
 <form id="survey-form" class="orange-border whiteblue-box">
-<label for="supername" id="name-label" class="larger-label">Name:</label>
-<input id="name" class="whiteblue-box" name="supername" type="text" placeholder="Enter your supervillain name" required><br>
-<label for="superemail" id="email-label" class="larger-label">Email:</label>
-<input id="email" class="whiteblue-box" name="superemail" type="email" placeholder="Enter a valid supervillain email address" required><br>
-<label for="age" id="number-label" class="larger-label">Age:</label>
-<input id="number" class="whiteblue-box" name="age" type="number" placeholder="Enter your age" min="18" max="200" required><br><br>
 
-<label for="dinnerguest" class="larger-label">Which one of these would be your perfect PMSL dinner guest?</label><br>
+<div>
+  <p><strong>Your Supervillain Identity</strong></p>
+  <label for="name" id="name-label" class="larger-label">Name:
+<input id="name" class="whiteblue-box" name="supername" type="text" placeholder="Enter your supervillain name" required></label>
+<label for="email" id="email-label" class="larger-label">Email:
+<input id="email" class="whiteblue-box" name="superemail" type="email" placeholder="Enter a valid email address" required></label>
+<label for="number" id="number-label" class="larger-label">Age:
+<input id="number" class="whiteblue-box" name="age" type="number" placeholder="Enter your age" min="18" max="200" required></label>
+</div>
+
+<div>
+<label for="dropdown"><strong>Which one of these would be your perfect PMSL dinner guest?</strong></label>
 <select name="villains" id="dropdown" class="whiteblue-box">
   <option value="Attila">Attila the Honey</option>
   <option value="Vlad">Vlad the Impala</option>
@@ -40,48 +45,42 @@ Winner will receive one PMSL. Value: £2bn. Location: Classified. T&amp;Cs apply
   <option value="Genghis">Genghis Khant</option>
   <option value="Ivan">Ivan the Tearable</option>
 </select>
+</div>
 
-<p>Which of these is your preferred cape colour?</p>
-<input type="radio" id="Red" name="colours" value="Red">
-<label for="Red">Rancorous Red</label><br>
-<input type="radio" id="Orange" name="colours" value="Orange">
-<label for="Orange">Obscene Orange</label><br>
-<input type="radio" id="Yellow" name="colours" value="Yellow">
-<label for="Yellow">Yucky Yellow</label><br>
-<input type="radio" id="Green" name="colours" value="Green">
-<label for="Green">Ghastly Green</label><br>
-<input type="radio" id="Blue" name="colours" value="Blue">
-<label for="Blue">Beastly Blue</label><br>
-<input type="radio" id="Indigo" name="colours" value="Indigo">
-<label for="Indigo">Infamous Indigo</label><br>
-<input type="radio" id="Violet" name="colours" value="Violet">
-<label for="Violet">Venomous Violet</label><br>
+<div>
+<p><strong>Which of these is your preferred cape colour?</strong></p>
+<label for="Red"><input type="radio" id="Red" name="colours" value="Red">Rancorous Red</label>
+<label for="Orange"><input type="radio" id="Orange" name="colours" value="Orange">Obscene Orange</label>
+<label for="Yellow"><input type="radio" id="Yellow" name="colours" value="Yellow">Yucky Yellow</label>
+<label for="Green"><input type="radio" id="Green" name="colours" value="Green">Ghastly Green</label>
+<label for="Blue"><input type="radio" id="Blue" name="colours" value="Blue">Beastly Blue</label>
+<label for="Indigo"><input type="radio" id="Indigo" name="colours" value="Indigo">Infamous Indigo</label>
+<label for="Violet"><input type="radio" id="Violet" name="colours" value="Violet">Venomous Violet</label>
+</div>
 
-<p>Which of these features would you like to see in your PMSL?<br>(tick all which apply)</p>
-<input type="checkbox" id="Mecha" value="Mecha">
-<label for="Mecha">Humungous Mecha</label><br>
-<input type="checkbox" id="Gun" value="Gun">
-<label for="Gun">Wave Motion Gun</label><br>
-<input type="checkbox" id="Den" value="Den">
-<label for="Den">Den of Iniquity</label><br>
-<input type="checkbox" id="Mooks" value="Mooks">
-<label for="Mooks">Mooks</label><br>
-<input type="checkbox" id="Sharks" value="Sharks">
-<label for="Sharks">Shark-Infested Swimming Pool</label><br>
-<input type="checkbox" id="Button" value="Button">
-<label for="Button">Self-Destruct Button</label><br>
-<input type="checkbox" id="Monorail" value="Monorail">
-<label for="Monorail">Monorail</label><br>
-<input type="checkbox" id="Ducts" value="Ducts">
-<label for="Ducts">Human-Sized Ventilation Ducts</label><br><br>
+<div>
+<p><strong>Which of these features would you like to see in your PMSL?<br>(tick all which apply)</strong></p>
+<label for="Mecha"><input type="checkbox" id="Mecha" value="Mecha">Humungous Mecha</label>
+<label for="Gun"><input type="checkbox" id="Gun" value="Gun">Wave Motion Gun</label>
+<label for="Den"><input type="checkbox" id="Den" value="Den">Den of Iniquity</label>
+<label for="Mooks"><input type="checkbox" id="Mooks" value="Mooks">Mooks</label>
+<label for="Sharks"><input type="checkbox" id="Sharks" value="Sharks">Shark-Infested Swimming Pool</label>
+<label for="Button"><input type="checkbox" id="Button" value="Button">Self-Destruct Button</label>
+<label for="Monorail"><input type="checkbox" id="Monorail" value="Monorail">Monorail</label>
+<label for="Ducts"><input type="checkbox" id="Ducts" value="Ducts">Human-Sized Ventilation Ducts</label>
+</div>
 
-<label for="comments" class="larger-label">Why do you deserve to have a PMSL?</label><br><br>
-<textarea id="comments" rows="8" columns="1" placeholder="List your most Machiavellian masterpieces of malice here."></textarea><br><br>
+<div>
+<label for="comments"><strong>Why do you deserve to have a PMSL?</strong></label>
+<textarea id="comments" rows="8" placeholder="Describe your most Machiavellian masterpieces of malice."></textarea>
+</div>
+
 <button type="submit" id="submit" class="orange-border">Submit</button>
 
 </form>
 
 </div>
 </div>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
